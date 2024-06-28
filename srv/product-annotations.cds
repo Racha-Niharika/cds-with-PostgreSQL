@@ -25,7 +25,7 @@ annotate Product with @(
 
     ]
 );
-
+//annotate Product with @odata.draft.enabled;
 
 annotate Product with @(
     UI.FieldGroup #GeneratedGroup1 : {

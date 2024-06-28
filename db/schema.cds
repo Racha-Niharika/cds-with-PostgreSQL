@@ -17,15 +17,15 @@ entity Kitchen: managed, cuid {
     @title: 'Phone Number'
     phone: String(15);
 }
-entity ProductLocal: managed {
+entity ProductLocal: managed{
     @title: 'Product ID'
-    @readonly
+    
     key Product: String(40);
     @title: 'Product type'
-    @readonly
+   
     ProductType: String(4);
     @title: 'Base unit'
-    @readonly
+   
     BaseUnit: String(3);
     @title: 'Product Group'
     ProductGroup: String(18);

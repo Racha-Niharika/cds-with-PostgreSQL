@@ -47,4 +47,28 @@ await cds.run(insqry);
         await productapi.run(updqry);
     
   });
-})
+  
+    // INSERT handler
+    this.before('CREATE', 'ProductLocal', async req => {
+        const { Products, ProductLocal, ProductDescription } = this.entities;
+        console.log(req.data);
+        console.log("Fired Update");
+    
+        // Correct the structure of the INSERT query
+        const insqry = INSERT.into(Products).entries({
+            Product: req.data.Product,
+            ProductType: req.data.ProductType,
+            BaseUnit: req.data.BaseUnit,
+            ProductGroup: req.data.ProductGroup,
+            to_Description: [{
+                Product: req.data.Product, 
+                Language: 'EN',
+                ProductDescription: req.data.ProductDescription
+            }]
+        });
+    
+        await productapi.run(insqry);
+    });
+    
+  
+});
