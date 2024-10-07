@@ -1,6 +1,6 @@
 {
  "meta": {
-  "creator": "cds-dk 7.9.3"
+  "creator": "cds-dk 8.1.1"
  },
  "$version": "2.0",
  "definitions": {
@@ -472,7 +472,6 @@
      "@sap.semantics": "unit-of-measure"
     },
     "to_Description": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductDescription",
      "cardinality": {
@@ -481,7 +480,6 @@
      "keys": []
     },
     "to_Plant": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductPlant",
      "cardinality": {
@@ -490,7 +488,6 @@
      "keys": []
     },
     "to_ProductBasicText": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductBasicText",
      "cardinality": {
@@ -499,7 +496,6 @@
      "keys": []
     },
     "to_ProductInspectionText": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductInspectionText",
      "cardinality": {
@@ -508,13 +504,11 @@
      "keys": []
     },
     "to_ProductProcurement": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductProcurement",
      "keys": []
     },
     "to_ProductPurchaseText": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductPurchaseText",
      "cardinality": {
@@ -523,19 +517,16 @@
      "keys": []
     },
     "to_ProductQualityMgmt": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductQualityMgmt",
      "keys": []
     },
     "to_ProductSales": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductSales",
      "keys": []
     },
     "to_ProductSalesTax": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductSalesTax",
      "cardinality": {
@@ -544,13 +535,11 @@
      "keys": []
     },
     "to_ProductStorage": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductStorage",
      "keys": []
     },
     "to_ProductUnitsOfMeasure": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductUnitsOfMeasure",
      "cardinality": {
@@ -559,7 +548,6 @@
      "keys": []
     },
     "to_SalesDelivery": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductSalesDelivery",
      "cardinality": {
@@ -568,7 +556,6 @@
      "keys": []
     },
     "to_Valuation": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductValuation",
      "cardinality": {
@@ -1128,7 +1115,6 @@
      "@sap.quickinfo": "Logistics handling group for workload calculation"
     },
     "to_PlantMRPArea": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductPlantMRPArea",
      "cardinality": {
@@ -1137,67 +1123,56 @@
      "keys": []
     },
     "to_PlantQualityMgmt": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductPlantQualityMgmt",
      "keys": []
     },
     "to_PlantSales": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductPlantSales",
      "keys": []
     },
     "to_PlantStorage": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductPlantStorage",
      "keys": []
     },
     "to_PlantText": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductPlantText",
      "keys": []
     },
     "to_ProdPlantInternationalTrade": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductPlantIntlTrd",
      "keys": []
     },
     "to_ProductPlantCosting": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductPlantCosting",
      "keys": []
     },
     "to_ProductPlantForecast": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductPlantForecasting",
      "keys": []
     },
     "to_ProductPlantProcurement": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductPlantProcurement",
      "keys": []
     },
     "to_ProductSupplyPlanning": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductSupplyPlanning",
      "keys": []
     },
     "to_ProductWorkScheduling": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductWorkScheduling",
      "keys": []
     },
     "to_StorageLocation": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductStorageLocation",
      "cardinality": {
@@ -2390,7 +2365,6 @@
      "@sap.quickinfo": "ID for product attribute 10"
     },
     "to_SalesTax": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductSalesTax",
      "cardinality": {
@@ -2399,7 +2373,6 @@
      "keys": []
     },
     "to_SalesText": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductSalesText",
      "cardinality": {
@@ -3297,7 +3270,6 @@
      "@sap.semantics": "unit-of-measure"
     },
     "to_InternationalArticleNumber": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductUnitsOfMeasureEAN",
      "cardinality": {
@@ -3570,7 +3542,6 @@
      "@sap.semantics": "unit-of-measure"
     },
     "to_MLAccount": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductMLAccount",
      "cardinality": {
@@ -3579,7 +3550,6 @@
      "keys": []
     },
     "to_MLPrices": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductMLPrices",
      "cardinality": {
@@ -3588,13 +3558,11 @@
      "keys": []
     },
     "to_ValuationAccount": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductValuationAccount",
      "keys": []
     },
     "to_ValuationCosting": {
-     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_PRODUCT_SRV.A_ProductValuationCosting",
      "keys": []
